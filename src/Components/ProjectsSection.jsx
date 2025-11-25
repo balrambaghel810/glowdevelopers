@@ -20,13 +20,13 @@ const projects = [
     img: CVP,
     title: "Central Vidhyalaya",
     desc: "A school informatic website developed in HTML, CSS and JS.",
-    link: "https://balrambaghel810.github.io/Central-Vidhyalaya/"
+    link: "https://centralvidhyalaya.netlify.app/"
   },
   {
     img: LCP,
-    title: "Real Estate",
+    title: "Life Cares",
     desc: "A informatic website developed for Real Estate company in Bootstrap.",
-    link: "https://balrambaghel810.github.io/LifeCare/"
+    link: "https://lifecares.netlify.app/"
   },
   {
     img: FP3,
@@ -140,3 +140,4 @@ const ProjectsSection = () => {
 };
 
 export default ProjectsSection;
+
