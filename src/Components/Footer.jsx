@@ -10,27 +10,27 @@ const Footer = () => {
         <div className="">
 
           {/* CONTACT US */}
-          <h3 className="text-xl font-bold mb-6">Contact us</h3>
+          <h3 className="text-xl font-bold mb-2">Contact us</h3>
           <div className="grid smallscreen grid-cols-2 sm:grid-cols-3 gap-4">
 
-            <div className="flex items-start gap-3 mb-6">
-              <Phone className="text-orange-500 w-5 h-5" />
+            <div className="flex items-start gap-2 md:gap-3 mb-2">
+              <Phone className="text-orange-500 w-5 h-5 mt-1" />
               <div>
                 <p className="font-semibold text-gray-800">Call Us</p>
                 <p className="text-gray-600">+919977810861</p>
               </div>
             </div>
 
-            <div className="flex items-start gap-3 mb-6">
-              <Clock className="text-orange-500 w-5 h-5" />
+            <div className="flex items-start gap-2 md:gap-3 mb-2">
+              <Clock className="text-orange-500 w-5 h-5 mt-1" />
               <div>
                 <p className="font-semibold text-gray-800">Business hours</p>
-                <p className="text-gray-600">Mon - Fri 10 AM - 7 PM</p>
+                <p className="text-gray-600">Mon - Fri || 10 AM - 7 PM</p>
               </div>
             </div>
 
-            <div className="flex items-start gap-3">
-              <MapPin className="text-orange-500 w-5 h-5" />
+            <div className="flex items-start gap-2 md:gap-3">
+              <MapPin className="text-orange-500 w-5 h-5 mt-1" />
               <div>
                 <p className="font-semibold text-gray-800">Location</p>
                 <p className="text-gray-600">Indore, M.P.</p>
@@ -42,12 +42,12 @@ const Footer = () => {
         </div>
 
         {/* DIVIDER */}
-        <div className="border-t border-blue-100 my-1"></div>
+        <div className="border-t border-blue-100 my-2"></div>
 
         {/* BOTTOM SECTION */}
-        <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-6">
+        <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-2 md:gap-6 mt-4">
           <p className="text-gray-700 text-sm">
-            © Copyrights 2025 Glow Developers – All rights reserved
+            © Copyrights 2025 Glow Developers Technologies – All rights reserved
           </p>
 
           {/* SOCIAL ICONS */}
