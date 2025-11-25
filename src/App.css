@@ -1,0 +1,54 @@
+@import "swiper/css";
+@import "swiper/css/navigation";
+
+/* Move Swiper arrows to bottom right */
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev {
+  top: auto !important;
+  bottom: 0px !important;
+}
+
+.custom-swiper .swiper-button-next {
+  right: 10px !important;
+}
+
+.custom-swiper .swiper-button-prev {
+  right: 50px !important;
+}
+
+/* Arrow styling */
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev {
+  background: white;
+  border-radius: 9999px;
+  width: 38px;
+  height: 38px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.custom-swiper .swiper-button-next::after,
+.custom-swiper .swiper-button-prev::after {
+  font-size: 16px;
+  color: #444;
+}
+
+@layer utilities {
+  @keyframes bounce-slow {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-12px);
+    }
+  }
+
+  .animate-bounce-slow {
+    animation: bounce-slow 2s infinite ease-in-out;
+  }
+
+  /* Pause animation on hover (smooth) */
+  .animate-bounce-slow:hover {
+    animation-play-state: paused !important;
+  }
+}
